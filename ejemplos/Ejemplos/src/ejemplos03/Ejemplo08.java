@@ -33,8 +33,7 @@ public class Ejemplo08 {
 
         
         System.out.println("Elige una opción: 1 para sumar o 2 para multiplicar"
-                + "");
-        
+                + "");        
         opcion = entrada.nextInt();
 
       
