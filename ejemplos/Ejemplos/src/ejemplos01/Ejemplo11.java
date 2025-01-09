@@ -18,7 +18,7 @@ public class Ejemplo11 {
         String mensajeSumaTres;
         mensajeSuma = repetirNombre(10, "Antonio Valencia");
         mensajeSumaDos = repetirNombre("José Gavíca", 10);
-        int[] arreglo = {10, 2};
+        int[] arreglo = {10, 2, 1};
         mensajeSumaTres = repetirNombre("Jose Gavica", arreglo);
         System.out.printf("%s\n", mensajeSuma);
         System.out.printf("%s\n", mensajeSumaDos);
@@ -46,7 +46,7 @@ public class Ejemplo11 {
     }
 
     public static String repetirNombre(String nombre, int [] arreglo2){
-       int suma =0;
+       int suma = 0;
        String cadena = "";
        for (int i = 0; i < arreglo2.length; i++){
            suma = suma + arreglo2[i];
